@@ -33,7 +33,6 @@ public class SVGBoard extends BaseBoard {
 
 		SVG svg = SVGParser.getSVGFromInputStream(mContext.getResources().openRawResource(svgResId), width, height);
 		canvas.drawPicture(svg.getPicture());
-
 		return bitmap;
 	}
 

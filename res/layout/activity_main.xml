@@ -14,9 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        custom:row="5"
+        custom:row="4"
         custom:colum= "5"
-        custom:svg_raw_resource="@raw/shape_flower"
+        custom:svg_raw_resource="@raw/shape_heart"
         android:src="@drawable/dd" />
 
 </RelativeLayout>
